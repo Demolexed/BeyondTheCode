@@ -1,13 +1,11 @@
-# 🧪 MonadsLabProject – Lab interactif en .NET sur les Monades
+# 🧪 MonadsLabProject – Interactive .NET Lab on Monads
 
-Bienvenue dans un **atelier interactif gamifié** pour apprendre les monades en C#/.NET ✨  
-Ce projet vous guide à travers 4 niveaux d'exercices, du `Option<T>` jusqu'à la monade `Validation<T>` compatible LINQ.
+Welcome to an **interactive gamified workshop** to learn about monads in C#/.NET ✨  
+This project guides you through 4 levels of exercises, from `Option<T>` up to a LINQ-compatible `Validation<T>` monad.
 
 ---
 
-## 🚀 Lancer le lab
+## 🚀 Run the lab
 
 ```bash
-git clone https://github.com/ton-utilisateur/Monads.git
-cd MonadsLabProject
 dotnet run
