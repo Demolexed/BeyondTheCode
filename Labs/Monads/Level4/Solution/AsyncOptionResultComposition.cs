@@ -28,8 +28,8 @@ namespace Monads.Level4 {
 
         private static Option<int> ParseInt(string input) {
             if (int.TryParse(input, out var value))
-                return Option<int>.Some(value);
-            return Option<int>.None();
+                return Option.Some(value);
+            return Option.None<int>();
         }
     }
 }
