@@ -7,6 +7,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+/.vs
+/.vs/*
+
+/.idea
+/.idea/*
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -52,3 +58,29 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+#  Local .terraform directories
+**/.terraform/*
+**/terraform.tfstate.d/*
+
+# Local terragrunt directories
+**/.terragrunt-cache/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# plan
+*.tfplan
+
+# tf vizualization
+graph.png
+
+Gopkg.lock
+Gopkg.toml
+/vendor/*
+
+*.lock.hcl
